@@ -1,11 +1,11 @@
 {
  "rules": [
   {
-   "name": "sdf",
+   "name": "sdfee",
    "actions": [
     {
-     "name": "group_member_add",
-     "text": "weerr"
+     "name": "group_member_remove",
+     "text": "beee"
     },
     {
      "name": "email_generate"
@@ -14,12 +14,12 @@
    "conditions": [
     {
      "name": "user_fields",
-     "options": "0",
-     "operator": "0",
-     "value": "wer"
+     "options": "first_name",
+     "operator": "not equal",
+     "value": "weeee"
     }
    ],
-   "id": "09d72194-e84d-e852-7f24-b96297162274"
+   "id": "3e25eb54-2730-375e-892c-082336c7f5bf"
   }
  ]
 }
