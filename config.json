@@ -4,11 +4,11 @@
    "name": "sdfee",
    "actions": [
     {
-     "name": "group_member_remove",
-     "text": "beee"
+     "name": "email_generate"
     },
     {
-     "name": "email_generate"
+     "name": "group_member_remove",
+     "text": "beee"
     }
    ],
    "conditions": [
@@ -16,6 +16,12 @@
      "name": "user_fields",
      "options": "first_name",
      "operator": "not equal",
+     "value": "weeee"
+    },
+    {
+     "name": "user_fields",
+     "options": "last_name",
+     "operator": "contains",
      "value": "weeee"
     }
    ],
