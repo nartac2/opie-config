@@ -1,14 +1,29 @@
 {
  "rules": [
   {
-   "name": "add to staff",
+   "name": "User is Monte",
    "actions": [
     {
      "name": "group_member_remove",
-     "text": "00gtsme66Z8VEDoYf0x6"
-    },
+     "text": "00gtp29obLZkd5Vk30x6"
+    }
+   ],
+   "conditions": [
     {
-     "name": "email_generate"
+     "name": "user_fields",
+     "options": "first_name",
+     "operator": "equal",
+     "value": "Monte"
+    }
+   ],
+   "id": "975acc4a-2d6f-17e6-3554-e8abca2539e8"
+  },
+  {
+   "name": "Add to staff",
+   "actions": [
+    {
+     "name": "group_member_remove",
+     "text": "00gtp29oeNh0eZzV50x6"
     }
    ],
    "conditions": [
@@ -20,45 +35,15 @@
     }
    ],
    "id": "3e25eb54-2730-375e-892c-082336c7f5bf"
-  },
-  {
-   "name": "User is MOnte",
-   "actions": [
-    {
-     "name": "group_member_remove",
-     "text": "00gtsme66Z8VEDoYf0x6"
-    },
-    {
-     "name": "email_generate"
-    },
-    {
-     "name": "email_generate"
-    }
-   ],
-   "conditions": [
-    {
-     "name": "user_group",
-     "options": "group_name",
-     "operator": "hasgroup",
-     "value": "Staff"
-    },
-    {
-     "name": "user_fields",
-     "options": "first_name",
-     "operator": "equal",
-     "value": "Monte"
-    }
-   ],
-   "id": "975acc4a-2d6f-17e6-3554-e8abca2539e8"
   }
  ],
  "mappings": [
   {
    "source": {
     "source": "user_fields",
-    "field": "otterid"
+    "field": "first_name"
    },
-   "target": "login",
+   "target": "firstName",
    "transform": "text",
    "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
   },
@@ -74,9 +59,9 @@
   {
    "source": {
     "source": "user_fields",
-    "field": "first_name"
+    "field": "otterid"
    },
-   "target": "firstName",
+   "target": "login",
    "transform": "text",
    "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
   }
