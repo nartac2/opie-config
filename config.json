@@ -1,12 +1,8 @@
 {
  "rules": [
   {
-   "name": "sdfee",
+   "name": "User is MOnte",
    "actions": [
-    {
-     "name": "group_member_remove",
-     "text": "00gtsme66Z8VEDoYf0x6"
-    },
     {
      "name": "email_generate"
     }
@@ -14,15 +10,30 @@
    "conditions": [
     {
      "name": "user_fields",
-     "options": "last_name",
-     "operator": "contains",
-     "value": "weeee"
-    },
-    {
-     "name": "user_fields",
      "options": "first_name",
      "operator": "equal",
-     "value": "weeee"
+     "value": "Monte"
+    }
+   ],
+   "id": "975acc4a-2d6f-17e6-3554-e8abca2539e8"
+  },
+  {
+   "name": "add to staff",
+   "actions": [
+    {
+     "name": "email_generate"
+    },
+    {
+     "name": "group_member_remove",
+     "text": "00gtp29oeNh0eZzV50x6"
+    }
+   ],
+   "conditions": [
+    {
+     "name": "user_group",
+     "options": "group_name",
+     "operator": "hasgroup",
+     "value": "Staff"
     }
    ],
    "id": "3e25eb54-2730-375e-892c-082336c7f5bf"
@@ -32,9 +43,9 @@
   {
    "source": {
     "source": "odi_user",
-    "field": "otterid"
+    "field": "first_name"
    },
-   "target": "login",
+   "target": "lastName",
    "transform": "text",
    "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
   },
@@ -50,9 +61,9 @@
   {
    "source": {
     "source": "odi_user",
-    "field": "last_name"
+    "field": "first_name"
    },
-   "target": "lastName",
+   "target": "login",
    "transform": "text",
    "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
   }
