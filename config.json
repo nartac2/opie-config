@@ -4,24 +4,24 @@
    "name": "sdfee",
    "actions": [
     {
-     "name": "group_member_remove",
-     "text": "beee"
+     "name": "email_generate"
     },
     {
-     "name": "email_generate"
+     "name": "group_member_remove",
+     "text": "00gtsme66Z8VEDoYf0x6"
     }
    ],
    "conditions": [
     {
      "name": "user_fields",
-     "options": "last_name",
-     "operator": "contains",
+     "options": "first_name",
+     "operator": "equal",
      "value": "weeee"
     },
     {
      "name": "user_fields",
-     "options": "first_name",
-     "operator": "not equal",
+     "options": "last_name",
+     "operator": "contains",
      "value": "weeee"
     }
    ],
@@ -32,29 +32,11 @@
   {
    "source": {
     "source": "odi_user",
-    "field": "emplid"
+    "field": "first_name"
    },
-   "target": "emplid",
-   "transform": "number",
-   "id": "d977147f-c466-4d77-092a-815cc00d372c"
-  },
-  {
-   "source": {
-    "source": "odi_user",
-    "field": "otterid"
-   },
-   "target": "username",
+   "target": "firstName",
    "transform": "text",
-   "id": "f1bee2d1-de4f-5e58-d6f9-8ef2d3209f13"
-  },
-  {
-   "source": {
-    "source": "odi_user",
-    "field": "last_name"
-   },
-   "target": "lastName",
-   "transform": "text",
-   "id": "c63f94d5-6810-3fd2-f4dd-b684c815e93c"
+   "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
   },
   {
    "source": {
@@ -62,6 +44,15 @@
     "field": "first_name"
    },
    "target": "firstName",
+   "transform": "text",
+   "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
+  },
+  {
+   "source": {
+    "source": "odi_user",
+    "field": "otterid"
+   },
+   "target": "login",
    "transform": "text",
    "id": "e3e2dc22-214d-99a6-727d-89fb0b595c34"
   }
