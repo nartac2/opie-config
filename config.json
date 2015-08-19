@@ -4,9 +4,9 @@
      "CN=Students,OU=Security Groups,DC=TEST,DC=MONTEREY,DC=EDU"
    ]
  },
- "emailGroup": {
+ "emailGroups": [
   "Student",
   "Staff",
   "Faculty"
- }
+ ]
 }
