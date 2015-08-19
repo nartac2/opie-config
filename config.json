@@ -1,5 +1,12 @@
 {
  "groups": {
-  "Student": "CN=Students,OU=Security Groups,DC=TEST,DC=MONTEREY,DC=EDU"
+  "Student": [
+     "CN=Students,OU=Security Groups,DC=TEST,DC=MONTEREY,DC=EDU"
+   ]
+ },
+ "emailGroup": {
+  "Student",
+  "Staff",
+  "Faculty"
  }
 }
