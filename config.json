@@ -1,12 +1,61 @@
 {
- "groups": {
-  "Student": [
-     "CN=Students,OU=Security Groups,DC=TEST,DC=MONTEREY,DC=EDU"
-   ]
- },
- "emailGroups": [
-  "Student",
-  "Staff",
-  "Faculty"
- ]
+ "groups": [
+  {
+   "source": "Staff",
+   "target": "00g4oaxaf6rdTjwtD0h7",
+   "id": "f90b46f1-a612-5b40-e330-d7bacc6c99c1"
+  },
+  {
+   "source": "Staff",
+   "target": "00g4oaxaf6rdTjwtD0h7",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  }
+ ],
+ "mappings": [
+  {
+   "source": "emplid",
+   "target": "employeeNumber",
+   "transform": "text",
+   "id": "18b6762e-6290-da63-03a7-77d74963bb82"
+  },
+  {
+   "source": "last_name",
+   "target": "lastName",
+   "transform": "text",
+   "id": "320cfcbe-9b68-7c38-dad1-4dfa199f91c6"
+  },
+  {
+   "source": "middle_name",
+   "target": "middleName",
+   "transform": "text",
+   "id": "ce2079da-3061-7134-e9a7-2ee64b1cfaef"
+  },
+  {
+   "source": "first_name",
+   "target": "firstName",
+   "transform": "text",
+   "id": "415b3c23-7b05-4ab1-9fe6-ad60eb3df1e8"
+  },
+  {
+   "source": "otterid",
+   "target": "cn",
+   "transform": "text",
+   "id": "a26734cf-77a0-3547-6f6b-30a25043dc2b"
+  },
+  {
+   "source": "otterid",
+   "target": "login",
+   "transform": "appenddomain",
+   "id": "728e4996-c1f8-3cce-a9e1-9568d16cad82"
+  },
+  {
+   "source": "email",
+   "target": "email",
+   "transform": "text",
+   "id": "537923ba-4ce3-255e-d78b-aa018dbaf0b1"
+  }
+ ],
+ "general": {
+  "emailGroup": "00g4ocy2pxDluYjId0h7"
+ }
 }
