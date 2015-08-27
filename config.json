@@ -1,22 +1,154 @@
 {
  "groups": [
   {
-   "source": "Staff",
-   "target": "00g4srf383nyAwoFb0h7",
-   "label": "Opie Test Group",
+   "source": "POI",
+   "target": "00g4ocy2pzk2TvzzZ0h7",
+   "label": "POI",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "POI",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Graduated",
+   "target": "00g4ocy2ozgy794up0h7",
+   "label": "Graduated",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Graduated",
+   "target": "00g4oddwkpSHHAH9w0h7",
+   "label": "CSUMB Google Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Graduated",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Extended Ed",
+   "target": "00g4owyn6iSBrrI3d0h7",
+   "label": "Extended Ed",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Extended Ed",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Faculty",
+   "target": "00g4ocy2o9PXbKbc00h7",
+   "label": "Faculty",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Faculty",
+   "target": "00g4oaxaf4YSDrn8E0h7",
+   "label": "Faculty",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Faculty",
+   "target": "00g4oddwkpSHHAH9w0h7",
+   "label": "CSUMB Google Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Faculty",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "CSUMB AA",
+   "target": "00g4oddwkpSHHAH9w0h7",
+   "label": "CSUMB Google Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "CSUMB AA",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "CSUMB AA",
+   "target": "00g4ocy2opZ1cyAO60h7",
+   "label": "Alumni",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Calstate Teach",
+   "target": "00g4ocy2q1V6Gohrs0h7",
+   "label": "Calstateteach",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Applicants",
+   "target": "00g4ocy2ohkl53N530h7",
+   "label": "Applicants",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Applicants",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "Student",
-   "target": "00g4srf383nyAwoFb0h7",
-   "label": "Opie Test Group",
-   "id": "f90b46f1-a612-5b40-e330-d7bacc6c99c1"
+   "target": "00g4ocy2odEwKy9HV0h7",
+   "label": "Students",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "Faculty",
-   "target": "00g4ocy2pxDluYjId0h7",
-   "label": "GoogleAccts",
-   "id": "f90b46f1-a612-5b40-e330-d7bacc6c99c1"
+   "source": "Student",
+   "target": "00g4oaxaf8ekc2T820h7",
+   "label": "Students",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Student",
+   "target": "00g4oddwkpSHHAH9w0h7",
+   "label": "CSUMB Google Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Student",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Staff",
+   "target": "00g4oaxaf6rdTjwtD0h7",
+   "label": "Staff",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Staff",
+   "target": "00g4sohtp6Es1CkN60h7",
+   "label": "CSUMB AD Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Staff",
+   "target": "00g4oddwkpSHHAH9w0h7",
+   "label": "CSUMB Google Account",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "Employee Staff",
+   "target": "00g4ocy2ofIvArS5S0h7",
+   "label": "Staff",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   }
  ],
  "mappings": [
