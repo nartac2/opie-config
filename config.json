@@ -321,13 +321,13 @@
    "id": "537923ba-4ce3-255e-d78b-aa018dbaf0b1"
   },
   {
-   "source": "otter_id",
+   "source": "id",
    "target": "login",
    "transform": "appenddomain",
    "id": "728e4996-c1f8-3cce-a9e1-9568d16cad82"
   },
   {
-   "source": "otter_id",
+   "source": "id",
    "target": "cn",
    "transform": "text",
    "id": "a26734cf-77a0-3547-6f6b-30a25043dc2b"
@@ -357,19 +357,19 @@
    "id": "18b6762e-6290-da63-03a7-77d74963bb82"
   },
   {
-   "source": "otter_id",
+   "source": "id",
    "target": "calstateEduPersonPrincipalName",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "otter_id",
+   "source": "id",
    "target": "sAMAccountName",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "otter_id",
+   "source": "id",
    "target": "eduPersonPrincipalName",
    "transform": "appenddomain",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
@@ -381,7 +381,7 @@
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "otter_id",
+   "source": "id",
    "target": "userPrincipalName",
    "transform": "appenddomain",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
