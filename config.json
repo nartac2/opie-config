@@ -1,260 +1,62 @@
 {
  "groups": [
   {
-   "source": "contractor_poi",
-   "target": "00g4v2tvc1kml8ra80h7",
-   "label": "CSUMB - POI",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "contractor_poi",
-   "target": "00g4ocy2pzk2TvzzZ0h7",
-   "label": "POI",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "contractor_poi",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "contractor_poi",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "contractor_poi",
-   "target": "00g4ocy2ojf2Rg0xt0h7",
-   "label": "Domain Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_corporation",
-   "target": "00g4v2udckS5FSlpT0h7",
-   "label": "CSUMB - Staff-Corporation",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_corporation",
-   "target": "00g4ocy2plhvO9NxQ0h7",
-   "label": "Corporation",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_corporation",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_corporation",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_corporation",
-   "target": "00g4ocy2ojf2Rg0xt0h7",
-   "label": "Domain Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
    "source": "employee_staff",
-   "target": "00g4oaxaf6rdTjwtD0h7",
-   "label": "Staff",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_staff",
-   "target": "00g4oav4jznIfVsfy0h7",
-   "label": "CSUMB - Staff",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_staff",
-   "target": "00g4ocy2ofIvArS5S0h7",
-   "label": "Staff",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_staff",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_staff",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_staff",
-   "target": "00g4ocy2ojf2Rg0xt0h7",
-   "label": "Domain Users",
+   "target": "00g4ppb7xu4IgQzKU0h7",
+   "label": "IPTV",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "employee_faculty",
-   "target": "00g4oaxaf4YSDrn8E0h7",
-   "label": "Faculty",
+   "target": "00g4ppb7xu4IgQzKU0h7",
+   "label": "IPTV",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "employee_faculty",
-   "target": "00g4v2tvbr7cbaCbf0h7",
-   "label": "CSUMB - Faculty",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_faculty",
-   "target": "00g4ocy2o9PXbKbc00h7",
-   "label": "Faculty",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_faculty",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_faculty",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "employee_faculty",
+   "source": "applicant",
    "target": "00g4ocy2ojf2Rg0xt0h7",
    "label": "Domain Users",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "calstate_teach",
-   "target": "00g4v2vp6rqfZc19Q0h7",
-   "label": "CSUMB - Calstate Teach",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "calstate_teach",
-   "target": "00g4ocy2q1V6Gohrs0h7",
-   "label": "Calstateteach",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "calstate_teach",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "calstate_teach",
+   "source": "applicant",
    "target": "00g4ocy2otq5q6has0h7",
    "label": "Power Users",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "calstate_teach",
-   "target": "00g4ocy2ojf2Rg0xt0h7",
-   "label": "Domain Users",
+   "source": "applicant",
+   "target": "00g4ocy2ohkl53N530h7",
+   "label": "Applicants",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "extended_education",
-   "target": "00g4v31tlb4sBriYQ0h7",
-   "label": "CSUMB - Extended Ed",
+   "source": "applicant",
+   "target": "00g4v2tvttZZE4lmv0h7",
+   "label": "CSUMB - Applicants",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "extended_education",
-   "target": "00g4owyn6iSBrrI3d0h7",
-   "label": "Extended Ed",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "extended_education",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "extended_education",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "extended_education",
-   "target": "00g4ocy2ojf2Rg0xt0h7",
-   "label": "Domain Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "alumni",
-   "target": "00g4v2sf2sbg6X1dF0h7",
-   "label": "CSUMB - Alumni",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "alumni",
-   "target": "00g4ocy2opZ1cyAO60h7",
-   "label": "Alumni",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "alumni",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "alumni",
-   "target": "00g4ocy2ojf2Rg0xt0h7",
-   "label": "Domain Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "graduated",
-   "target": "00g4oaxaf8ekc2T820h7",
-   "label": "Students",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "graduated",
-   "target": "00g4yp4zekG5bb6Cn0h7",
-   "label": "CSUMB - Graduated",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "graduated",
-   "target": "00g4ocy2ozgy794up0h7",
-   "label": "Graduated",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "graduated",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "graduated",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "graduated",
+   "source": "student",
    "target": "00g4ocy2ojf2Rg0xt0h7",
    "label": "Domain Users",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "student",
-   "target": "00g4oaxaf8ekc2T820h7",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "student",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "student",
+   "target": "00g4ocy2odEwKy9HV0h7",
    "label": "Students",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
@@ -266,69 +68,351 @@
   },
   {
    "source": "student",
-   "target": "00g4ocy2odEwKy9HV0h7",
+   "target": "00g4oaxaf8ekc2T820h7",
    "label": "Students",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "student",
-   "target": "00g4ticye4wHKkxWy0h7",
-   "label": "Genetec",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "student",
-   "target": "00g4ocy2otq5q6has0h7",
-   "label": "Power Users",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "student",
+   "source": "graduated",
    "target": "00g4ocy2ojf2Rg0xt0h7",
    "label": "Domain Users",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "applicant",
-   "target": "00g4v2tvttZZE4lmv0h7",
-   "label": "CSUMB - Applicants",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "applicant",
-   "target": "00g4ocy2ohkl53N530h7",
-   "label": "Applicants",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "applicant",
+   "source": "graduated",
    "target": "00g4ocy2otq5q6has0h7",
    "label": "Power Users",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "applicant",
+   "source": "graduated",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "graduated",
+   "target": "00g4ocy2ozgy794up0h7",
+   "label": "Graduated",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "graduated",
+   "target": "00g4yp4zekG5bb6Cn0h7",
+   "label": "CSUMB - Graduated",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "graduated",
+   "target": "00g4oaxaf8ekc2T820h7",
+   "label": "Students",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "alumni",
+   "target": "00g4ocy2ojf2Rg0xt0h7",
+   "label": "Domain Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "alumni",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "alumni",
+   "target": "00g4ocy2opZ1cyAO60h7",
+   "label": "Alumni",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "alumni",
+   "target": "00g4v2sf2sbg6X1dF0h7",
+   "label": "CSUMB - Alumni",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "extended_education",
+   "target": "00g4ocy2ojf2Rg0xt0h7",
+   "label": "Domain Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "extended_education",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "extended_education",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "extended_education",
+   "target": "00g4owyn6iSBrrI3d0h7",
+   "label": "Extended Ed",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "extended_education",
+   "target": "00g4v31tlb4sBriYQ0h7",
+   "label": "CSUMB - Extended Ed",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "calstate_teach",
+   "target": "00g4ocy2ojf2Rg0xt0h7",
+   "label": "Domain Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "calstate_teach",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "calstate_teach",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "calstate_teach",
+   "target": "00g4ocy2q1V6Gohrs0h7",
+   "label": "Calstateteach",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "calstate_teach",
+   "target": "00g4v2vp6rqfZc19Q0h7",
+   "label": "CSUMB - Calstate Teach",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_faculty",
    "target": "00g4ocy2ojf2Rg0xt0h7",
    "label": "Domain Users",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "employee_faculty",
-   "target": "00g4ppb7xu4IgQzKU0h7",
-   "label": "IPTV",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_faculty",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_faculty",
+   "target": "00g4ocy2o9PXbKbc00h7",
+   "label": "Faculty",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_faculty",
+   "target": "00g4v2tvbr7cbaCbf0h7",
+   "label": "CSUMB - Faculty",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_faculty",
+   "target": "00g4oaxaf4YSDrn8E0h7",
+   "label": "Faculty",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "employee_staff",
-   "target": "00g4ppb7xu4IgQzKU0h7",
-   "label": "IPTV",
+   "target": "00g4ocy2ojf2Rg0xt0h7",
+   "label": "Domain Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_staff",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_staff",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_staff",
+   "target": "00g4ocy2ofIvArS5S0h7",
+   "label": "Staff",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_staff",
+   "target": "00g4oav4jznIfVsfy0h7",
+   "label": "CSUMB - Staff",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_staff",
+   "target": "00g4oaxaf6rdTjwtD0h7",
+   "label": "Staff",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_corporation",
+   "target": "00g4ocy2ojf2Rg0xt0h7",
+   "label": "Domain Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_corporation",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_corporation",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_corporation",
+   "target": "00g4ocy2plhvO9NxQ0h7",
+   "label": "Corporation",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "employee_corporation",
+   "target": "00g4v2udckS5FSlpT0h7",
+   "label": "CSUMB - Staff-Corporation",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "contractor_poi",
+   "target": "00g4ocy2ojf2Rg0xt0h7",
+   "label": "Domain Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "contractor_poi",
+   "target": "00g4ocy2otq5q6has0h7",
+   "label": "Power Users",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "contractor_poi",
+   "target": "00g4ticye4wHKkxWy0h7",
+   "label": "Genetec",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "contractor_poi",
+   "target": "00g4ocy2pzk2TvzzZ0h7",
+   "label": "POI",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "contractor_poi",
+   "target": "00g4v2tvc1kml8ra80h7",
+   "label": "CSUMB - POI",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   }
  ],
  "mappings": [
   {
+   "source": "email_home",
+   "target": "secondEmail",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "last_four_ssn",
+   "target": "lastSSN",
+   "transform": "number",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "birthdate",
+   "target": "birthdate",
+   "transform": "date",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
    "source": "id",
-   "target": "sAMAccountName",
+   "target": "userPrincipalName",
+   "transform": "appenddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "proxyAddresses",
+   "transform": "beforeat",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "eduPersonNickname",
+   "transform": "beforeat",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "emplid",
+   "target": "calstateEduPersonEmplID",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "emplid",
+   "target": "employeeNumber",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "id",
+   "target": "login",
+   "transform": "appenddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "id",
+   "target": "eduPersonPrincipalName",
+   "transform": "appenddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "last_name",
+   "target": "lastName",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "middle_name",
+   "target": "middleName",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "first_name",
+   "target": "firstName",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "email",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "id",
+   "target": "cn",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
@@ -340,93 +424,15 @@
   },
   {
    "source": "id",
-   "target": "cn",
+   "target": "sAMAccountName",
    "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "email",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "first_name",
-   "target": "firstName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "middle_name",
-   "target": "middleName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "last_name",
-   "target": "lastName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "eduPersonPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "login",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "emplid",
-   "target": "employeeNumber",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "emplid",
-   "target": "calstateEduPersonEmplID",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "eduPersonNickname",
-   "transform": "beforeat",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "proxyAddresses",
-   "transform": "beforeat",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "userPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "birthdate",
-   "target": "birthdate",
-   "transform": "date",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "last_four_ssn",
-   "target": "lastSSN",
-   "transform": "number",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   }
  ],
  "static": [
   {
-   "value": "csumb",
-   "target": "eduPersonPrimaryAffiliation",
+   "value": "Seaside",
+   "target": "city",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
@@ -435,8 +441,8 @@
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "value": "Seaside",
-   "target": "city",
+   "value": "csumb",
+   "target": "eduPersonPrimaryAffiliation",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   }
  ],
