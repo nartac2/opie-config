@@ -1,32 +1,98 @@
 {
  "mappings": [
   {
-   "source": "opie:mydocsPath",
-   "target": "homeDirectory",
+   "source": "id",
+   "target": "adUserName",
+   "transform": "appendaddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "eduPersonNickname",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "opie:mydocsDrive",
-   "target": "homeDrive",
+   "source": "birthdate",
+   "target": "calstateEduPersonBirthDate",
+   "transform": "date",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "email_home",
+   "target": "secondEmail",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "opie:affiliation",
-   "target": "calstateEduPersonAffiliation",
+   "source": "last_four_ssn",
+   "target": "lastSSN",
+   "transform": "number",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "birthdate",
+   "target": "birthdate",
+   "transform": "date",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "emplid",
+   "target": "calstateEduPersonEmplID",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "opie:affiliation",
-   "target": "eduPersonAffiliation",
+   "source": "emplid",
+   "target": "employeeNumber",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "id",
-   "target": "sAMAccountName",
+   "target": "login",
+   "transform": "appenddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "id",
+   "target": "eduPersonPrincipalName",
+   "transform": "appenddomain",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "last_name",
+   "target": "lastName",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "middle_name",
+   "target": "middleName",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "first_name",
+   "target": "firstName",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "email",
+   "transform": "text",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "source": "id",
+   "target": "cn",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
@@ -38,110 +104,39 @@
   },
   {
    "source": "id",
-   "target": "cn",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "email",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "first_name",
-   "target": "firstName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "middle_name",
-   "target": "middleName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "last_name",
-   "target": "lastName",
+   "target": "sAMAccountName",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "id",
-   "target": "eduPersonPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "login",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "emplid",
-   "target": "employeeNumber",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "emplid",
-   "target": "calstateEduPersonEmplID",
+   "target": "eduPersonAffiliation",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "id",
-   "target": "userPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "birthdate",
-   "target": "birthdate",
-   "transform": "date",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "last_four_ssn",
-   "target": "lastSSN",
-   "transform": "number",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_home",
-   "target": "secondEmail",
+   "target": "calstateEduPersonAffiliation",
    "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "source": "birthdate",
-   "target": "calstateEduPersonBirthDate",
-   "transform": "date",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "eduPersonNickname",
-   "transform": "beforeatarray",
+   "source": "id",
+   "target": "homeDrive",
+   "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
    "source": "id",
-   "target": "adUserName",
-   "transform": "appendaddomain",
+   "target": "homeDirectory",
+   "transform": "text",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   }
  ],
  "static": [
   {
-   "value": "csumb",
-   "target": "eduPersonPrimaryAffiliation",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "value": "csumb",
-   "target": "eduPersonPrimaryAffiliation",
+   "value": "csumb-login.bat",
+   "target": "scriptPath",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
@@ -150,8 +145,13 @@
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   },
   {
-   "value": "csumb-login.bat",
-   "target": "scriptPath",
+   "value": "csumb",
+   "target": "eduPersonPrimaryAffiliation",
+   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+  },
+  {
+   "value": "csumb",
+   "target": "calstateEduPersonPrimaryAffiliation",
    "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
   }
  ],
