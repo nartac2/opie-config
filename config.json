@@ -1,181 +1,152 @@
 {
+ "update": "Tue Jan 12 2016 15:12:35 GMT-0800 (PST)",
  "mappings": [
-  {
-   "source": "opie:mydocsPath",
-   "target": "homeDirectory",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "opie:mydocsDrive",
-   "target": "homeDrive",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "opie:affiliation",
-   "target": "calstateEduPersonAffiliation",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "opie:affiliation",
-   "target": "eduPersonAffiliation",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "sAMAccountName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "calstateEduPersonPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "cn",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "email",
-   "transform": "lower",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "first_name",
-   "target": "firstName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "middle_name",
-   "target": "middleName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "last_name",
-   "target": "lastName",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "eduPersonPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
   {
    "source": "id",
    "target": "login",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "emplid",
-   "target": "calstateEduPersonEmplID",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "userPrincipalName",
-   "transform": "appenddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "birthdate",
-   "target": "birthdate",
-   "transform": "date",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "last_four_ssn",
-   "target": "lastSSN",
-   "transform": "number",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_home",
-   "target": "secondEmail",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "birthdate",
-   "target": "calstateEduPersonBirthDate",
-   "transform": "date",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "eduPersonNickname",
-   "transform": "beforeatlowerarray",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "id",
-   "target": "adUserName",
-   "transform": "appendaddomain",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "csumb:building_name",
-   "target": "directoryBuilding",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "csumb:building_code",
-   "target": "directoryBuildingCode",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "source": "csumb:phone",
-   "target": "directoryPhone",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+   "transform": "appenddomain"
   },
   {
    "source": "csumb:department_name",
    "target": "directoryDepartment",
-   "transform": "text",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+   "transform": "text"
+  },
+  {
+   "source": "csumb:building_code",
+   "target": "directoryBuildingCode",
+   "transform": "text"
+  },
+  {
+   "source": "csumb:building_name",
+   "target": "directoryBuilding",
+   "transform": "text"
+  },
+  {
+   "source": "id",
+   "target": "adUserName",
+   "transform": "appendaddomain"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "eduPersonNickname",
+   "transform": "beforeatlowerarray"
+  },
+  {
+   "source": "birthdate",
+   "target": "calstateEduPersonBirthDate",
+   "transform": "date"
+  },
+  {
+   "source": "email_home",
+   "target": "secondEmail",
+   "transform": "text"
+  },
+  {
+   "source": "last_four_ssn",
+   "target": "lastSSN",
+   "transform": "number"
+  },
+  {
+   "source": "birthdate",
+   "target": "birthdate",
+   "transform": "date"
+  },
+  {
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "emplid",
+   "target": "calstateEduPersonEmplID",
+   "transform": "text"
+  },
+  {
+   "source": "csumb:phone",
+   "target": "directoryPhone",
+   "transform": "text"
+  },
+  {
+   "source": "id",
+   "target": "eduPersonPrincipalName",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "last_name",
+   "target": "lastName",
+   "transform": "text"
+  },
+  {
+   "source": "middle_name",
+   "target": "middleName",
+   "transform": "text"
+  },
+  {
+   "source": "first_name",
+   "target": "firstName",
+   "transform": "text"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "email",
+   "transform": "lower"
+  },
+  {
+   "source": "id",
+   "target": "cn",
+   "transform": "text"
+  },
+  {
+   "source": "id",
+   "target": "calstateEduPersonPrincipalName",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "id",
+   "target": "sAMAccountName",
+   "transform": "text"
+  },
+  {
+   "source": "opie:affiliation",
+   "target": "eduPersonAffiliation",
+   "transform": "text"
+  },
+  {
+   "source": "opie:affiliation",
+   "target": "calstateEduPersonAffiliation",
+   "transform": "text"
+  },
+  {
+   "source": "opie:mydocsDrive",
+   "target": "homeDrive",
+   "transform": "text"
+  },
+  {
+   "source": "opie:mydocsPath",
+   "target": "homeDirectory",
+   "transform": "text"
   }
  ],
  "static": [
   {
-   "value": "csumb-login.bat",
-   "target": "scriptPath",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "value": "csumb",
-   "target": "eduPersonPrimaryAffiliation",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
-  },
-  {
-   "value": "csumb",
-   "target": "organization",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+   "value": "1",
+   "target": "calstateEduPersonAssuranceLevel"
   },
   {
    "value": "Seaside",
-   "target": "city",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+   "target": "city"
   },
   {
-   "value": "1",
-   "target": "calstateEduPersonAssuranceLevel",
-   "id": "0f2b70c7-e3ae-87ca-d36f-590d0bc1eb6e"
+   "value": "csumb",
+   "target": "organization"
+  },
+  {
+   "value": "csumb",
+   "target": "eduPersonPrimaryAffiliation"
+  },
+  {
+   "value": "csumb-login.bat",
+   "target": "scriptPath"
   }
  ],
  "affiliation": [
