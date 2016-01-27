@@ -1,110 +1,20 @@
 {
- "update": "Tue Jan 26 2016 09:16:33 GMT-0800 (Pacific Standard Time)",
+ "update": "Wed Jan 27 2016 15:34:26 GMT-0800 (Pacific Standard Time)",
  "mappings": [
-  {
-   "source": "csumb:phone",
-   "target": "directoryPhone",
-   "transform": "text"
-  },
-  {
-   "source": "opie:mydocsPath",
-   "target": "homeDirectory",
-   "transform": "text"
-  },
-  {
-   "source": "opie:affiliation",
-   "target": "calstateEduPersonAffiliation",
-   "transform": "text"
-  },
-  {
-   "source": "opie:affiliation",
-   "target": "eduPersonAffiliation",
-   "transform": "text"
-  },
-  {
-   "source": "id",
-   "target": "sAMAccountName",
-   "transform": "text"
-  },
-  {
-   "source": "id",
-   "target": "calstateEduPersonPrincipalName",
-   "transform": "appenddomain"
-  },
-  {
-   "source": "id",
-   "target": "cn",
-   "transform": "text"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "email",
-   "transform": "lower"
-  },
-  {
-   "source": "first_name",
-   "target": "firstName",
-   "transform": "text"
-  },
-  {
-   "source": "middle_name",
-   "target": "middleName",
-   "transform": "text"
-  },
-  {
-   "source": "last_name",
-   "target": "lastName",
-   "transform": "text"
-  },
-  {
-   "source": "id",
-   "target": "eduPersonPrincipalName",
-   "transform": "appenddomain"
-  },
   {
    "source": "opie:mydocsDrive",
    "target": "homeDrive",
    "transform": "text"
   },
   {
-   "source": "emplid",
-   "target": "calstateEduPersonEmplID",
-   "transform": "text"
-  },
-  {
    "source": "id",
-   "target": "userPrincipalName",
+   "target": "login",
    "transform": "appenddomain"
   },
   {
-   "source": "birthdate",
-   "target": "birthdate",
-   "transform": "date"
-  },
-  {
-   "source": "last_four_ssn",
-   "target": "lastSSN",
-   "transform": "number"
-  },
-  {
-   "source": "email_home",
-   "target": "secondEmail",
+   "source": "csumb:building_code",
+   "target": "directoryBuildingCode",
    "transform": "text"
-  },
-  {
-   "source": "birthdate",
-   "target": "calstateEduPersonBirthDate",
-   "transform": "date"
-  },
-  {
-   "source": "email_ocmp",
-   "target": "eduPersonNickname",
-   "transform": "beforeatlowerarray"
-  },
-  {
-   "source": "id",
-   "target": "adUserName",
-   "transform": "appendaddomain"
   },
   {
    "source": "csumb:building_name",
@@ -112,8 +22,43 @@
    "transform": "text"
   },
   {
-   "source": "csumb:building_code",
-   "target": "directoryBuildingCode",
+   "source": "id",
+   "target": "adUserName",
+   "transform": "appendaddomain"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "eduPersonNickname",
+   "transform": "beforeatlowerarray"
+  },
+  {
+   "source": "birthdate",
+   "target": "calstateEduPersonBirthDate",
+   "transform": "date"
+  },
+  {
+   "source": "email_home",
+   "target": "secondEmail",
+   "transform": "text"
+  },
+  {
+   "source": "last_four_ssn",
+   "target": "lastSSN",
+   "transform": "text"
+  },
+  {
+   "source": "birthdate",
+   "target": "birthdate",
+   "transform": "date"
+  },
+  {
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "emplid",
+   "target": "calstateEduPersonEmplID",
    "transform": "text"
   },
   {
@@ -123,30 +68,85 @@
   },
   {
    "source": "id",
-   "target": "login",
+   "target": "eduPersonPrincipalName",
    "transform": "appenddomain"
+  },
+  {
+   "source": "last_name",
+   "target": "lastName",
+   "transform": "text"
+  },
+  {
+   "source": "middle_name",
+   "target": "middleName",
+   "transform": "text"
+  },
+  {
+   "source": "first_name",
+   "target": "firstName",
+   "transform": "text"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "email",
+   "transform": "lower"
+  },
+  {
+   "source": "id",
+   "target": "cn",
+   "transform": "text"
+  },
+  {
+   "source": "id",
+   "target": "calstateEduPersonPrincipalName",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "id",
+   "target": "sAMAccountName",
+   "transform": "text"
+  },
+  {
+   "source": "opie:affiliation",
+   "target": "eduPersonAffiliation",
+   "transform": "text"
+  },
+  {
+   "source": "opie:affiliation",
+   "target": "calstateEduPersonAffiliation",
+   "transform": "text"
+  },
+  {
+   "source": "opie:mydocsPath",
+   "target": "homeDirectory",
+   "transform": "text"
+  },
+  {
+   "source": "csumb:phone",
+   "target": "directoryPhone",
+   "transform": "text"
   }
  ],
  "static": [
   {
-   "value": "csumb-login.bat",
-   "target": "scriptPath"
-  },
-  {
-   "value": "csumb",
-   "target": "eduPersonPrimaryAffiliation"
-  },
-  {
-   "value": "csumb",
-   "target": "organization"
+   "value": "1",
+   "target": "calstateEduPersonAssuranceLevel"
   },
   {
    "value": "Seaside",
    "target": "city"
   },
   {
-   "value": "1",
-   "target": "calstateEduPersonAssuranceLevel"
+   "value": "csumb",
+   "target": "organization"
+  },
+  {
+   "value": "csumb",
+   "target": "eduPersonPrimaryAffiliation"
+  },
+  {
+   "value": "csumb-login.bat",
+   "target": "scriptPath"
   }
  ],
  "affiliation": [
