@@ -1,15 +1,65 @@
 {
- "update": "Wed Jan 13 2016 13:52:38 GMT-0800 (PST)",
+ "update": "Tue Apr 19 2016 09:01:00 GMT-0700 (Pacific Daylight Time)",
  "mappings": [
   {
-   "source": "middle_name",
-   "target": "middleName",
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "opie:academicPlanCode",
+   "target": "academicPlanCode",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:poiLabel",
+   "target": "poiTypeLabel",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:poiType",
+   "target": "poiTypeNumber",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:groupStatus",
+   "target": "groupPlusStatus",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:mydocsDrive",
+   "target": "homeDrive",
    "transform": "text"
   },
   {
-   "source": "opie:facultyEnrollment",
-   "target": "enrollmentFaculty",
+   "source": "id",
+   "target": "login",
+   "transform": "appenddomain"
+  },
+  {
+   "source": "csumb:building_code",
+   "target": "directoryBuildingCode",
    "transform": "text"
+  },
+  {
+   "source": "csumb:building_name",
+   "target": "directoryBuilding",
+   "transform": "text"
+  },
+  {
+   "source": "id",
+   "target": "adUserName",
+   "transform": "appendaddomain"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "eduPersonNickname",
+   "transform": "beforeatlowerarray"
+  },
+  {
+   "source": "birthdate",
+   "target": "calstateEduPersonBirthDate",
+   "transform": "date"
   },
   {
    "source": "email_home",
@@ -27,9 +77,9 @@
    "transform": "date"
   },
   {
-   "source": "id",
-   "target": "userPrincipalName",
-   "transform": "appenddomain"
+   "source": "opie:academicPlanLabel",
+   "target": "academicPlanLabel",
+   "transform": "toarray"
   },
   {
    "source": "emplid",
@@ -37,14 +87,9 @@
    "transform": "text"
   },
   {
-   "source": "emplid",
-   "target": "employeeNumber",
+   "source": "opie:mydocsPath",
+   "target": "homeDirectory",
    "transform": "text"
-  },
-  {
-   "source": "id",
-   "target": "login",
-   "transform": "appenddomain"
   },
   {
    "source": "id",
@@ -57,8 +102,8 @@
    "transform": "text"
   },
   {
-   "source": "opie:studentEnrollment",
-   "target": "enrollmentStudent",
+   "source": "middle_name",
+   "target": "middleName",
    "transform": "text"
   },
   {
@@ -69,7 +114,7 @@
   {
    "source": "email_ocmp",
    "target": "email",
-   "transform": "text"
+   "transform": "lower"
   },
   {
    "source": "id",
@@ -79,7 +124,7 @@
   {
    "source": "id",
    "target": "calstateEduPersonPrincipalName",
-   "transform": "text"
+   "transform": "appenddomain"
   },
   {
    "source": "id",
@@ -87,32 +132,31 @@
    "transform": "text"
   },
   {
-   "source": "birthdate",
-   "target": "calstateEduPersonBirthDate",
-   "transform": "date"
+   "source": "opie:affiliation",
+   "target": "eduPersonAffiliation",
+   "transform": "text"
   },
   {
    "source": "opie:affiliation",
    "target": "calstateEduPersonAffiliation",
-   "transform": "toarray"
-  },
-  {
-   "source": "opie:affiliation",
-   "target": "eduPersonAffiliation",
-   "transform": "toarray"
-  },
-  {
-   "source": "opie:mydocsDrive",
-   "target": "myDocsDrive",
    "transform": "text"
   },
   {
-   "source": "opie:mydocsPath",
-   "target": "myDocsPath",
+   "source": "csumb:phone",
+   "target": "directoryPhone",
+   "transform": "text"
+  },
+  {
+   "source": "csumb:department_name",
+   "target": "directoryDepartment",
    "transform": "text"
   }
  ],
  "static": [
+  {
+   "value": "1",
+   "target": "calstateEduPersonAssuranceLevel"
+  },
   {
    "value": "Seaside",
    "target": "city"
@@ -124,6 +168,10 @@
   {
    "value": "csumb",
    "target": "eduPersonPrimaryAffiliation"
+  },
+  {
+   "value": "csumb-login.bat",
+   "target": "scriptPath"
   }
  ],
  "affiliation": [
@@ -133,33 +181,38 @@
   },
   {
    "group": "employee_staff",
-   "affiliation": "Employee Staff"
+   "affiliation": "Staff"
+  },
+  {
+   "group": "employee_faculty",
+   "affiliation": "Faculty"
   },
   {
    "group": "alumni",
    "affiliation": "Alumni"
   },
   {
-   "group": "alumni",
-   "affiliation": "Former Student"
+   "group": "calstate_teach",
+   "affiliation": "Student"
   }
  ],
  "general": {
-  "mode": "audit",
+  "mode": "production",
   "emailGroups": [
-   "students",
+   "student",
    "employee_staff",
    "employee_faculty",
-   "alumni"
+   "alumni",
+   "calstate_teach"
   ],
-  "skipAttribute": "do_not_touch",
+  "skipAttribute": "doNotTouch",
   "mydocsGroups": [
    "employee_staff",
    "employee_faculty"
   ],
   "mydocsDrive": "J:",
   "mydocsPath": "\\\\mydocs.csumb.edu\\users\\[id]",
-  "groupAttribute": "cms_role",
+  "groupAttribute": "cmsRole",
   "attributeEmailPrimary": "email_ocmp",
   "attributeEmailSecondary": "email_home",
   "emailGenerationFirst": "first_name",
