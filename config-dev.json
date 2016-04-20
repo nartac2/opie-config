@@ -197,7 +197,7 @@
   }
  ],
  "general": {
-  "mode": "production",
+  "mode": "audit",
   "emailGroups": [
    "student",
    "employee_staff",
