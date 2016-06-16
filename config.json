@@ -1,5 +1,5 @@
 {
- "update": "Thu Jun 16 2016 13:31:02 GMT-0700 (Pacific Daylight Time)",
+ "update": "Thu Jun 16 2016 13:33:53 GMT-0700 (Pacific Daylight Time)",
  "mappings": [
   {
    "source": "csumb:phone",
@@ -7,9 +7,14 @@
    "transform": "text"
   },
   {
-   "source": "id",
+   "source": "emplid",
    "target": "employeeID",
    "transform": "text"
+  },
+  {
+   "source": "email_ocmp",
+   "target": "proxyAddresses",
+   "transform": "beforeatlowerarray"
   },
   {
    "source": "csumb:department_name",
@@ -82,9 +87,9 @@
    "transform": "toarray"
   },
   {
-   "source": "email_ocmp",
-   "target": "proxyAddresses",
-   "transform": "beforeatlowerarray"
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain"
   },
   {
    "source": "last_four_ssn",
