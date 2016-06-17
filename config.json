@@ -1,25 +1,15 @@
 {
- "update": "Fri Jun 17 2016 08:08:21 GMT-0700 (Pacific Daylight Time)",
+ "update": "Fri Jun 17 2016 08:11:13 GMT-0700 (Pacific Daylight Time)",
  "mappings": [
   {
-   "source": "last_four_ssn",
-   "target": "lastSSN",
-   "transform": "number"
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain"
   },
   {
    "source": "opie:academicProgramAndPlan",
    "target": "academicProgramPlan",
    "transform": "text"
-  },
-  {
-   "source": "opie:academicProgramLabel",
-   "target": "academicProgramDescription",
-   "transform": "text"
-  },
-  {
-   "source": "birthdate",
-   "target": "birthdate",
-   "transform": "date"
   },
   {
    "source": "emplid",
@@ -92,14 +82,14 @@
    "transform": "text"
   },
   {
-   "source": "opie:academicProgramCode",
-   "target": "academicProgram",
-   "transform": "text"
+   "source": "last_four_ssn",
+   "target": "lastSSN",
+   "transform": "number"
   },
   {
-   "source": "id",
-   "target": "userPrincipalName",
-   "transform": "appenddomain"
+   "source": "birthdate",
+   "target": "birthdate",
+   "transform": "date"
   },
   {
    "source": "opie:academicPlanLabel",
