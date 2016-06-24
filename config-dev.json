@@ -1,14 +1,34 @@
 {
- "update": "Fri Jun 17 2016 11:07:51 GMT-0700 (Pacific Daylight Time)",
+ "update": "Fri Jun 24 2016 11:12:49 GMT-0700 (Pacific Daylight Time)",
  "mappings": [
   {
-   "source": "opie:academicPlanLabel",
-   "target": "academicPlanLabel",
+   "source": "opie:mydocsPath",
+   "target": "homeDirectory",
+   "transform": "text"
+  },
+  {
+   "source": "opie:facultyEnrollmentCode",
+   "target": "facultyEnrollmentCode",
    "transform": "toarray"
   },
   {
-   "source": "opie:academicProgramLabel",
-   "target": "academicProgramDescription",
+   "source": "opie:facultyEnrollment",
+   "target": "facultyEnrollmentDescription",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:studentEnrollment",
+   "target": "studentEnrollmentDescription",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:academicProgramAndPlan",
+   "target": "academicProgramPlan",
+   "transform": "toarray"
+  },
+  {
+   "source": "opie:academicPlanLabel",
+   "target": "academicPlanLabel",
    "transform": "toarray"
   },
   {
@@ -64,7 +84,7 @@
   {
    "source": "first_name",
    "target": "firstName",
-   "transform": "text"
+   "transform": "text_utf8"
   },
   {
    "source": "middle_name",
@@ -74,7 +94,7 @@
   {
    "source": "last_name",
    "target": "lastName",
-   "transform": "text"
+   "transform": "text_utf8"
   },
   {
    "source": "id",
@@ -82,9 +102,9 @@
    "transform": "appenddomain"
   },
   {
-   "source": "opie:mydocsPath",
-   "target": "homeDirectory",
-   "transform": "text"
+   "source": "opie:studentEnrollmentCode",
+   "target": "studentEnrollmentCode",
+   "transform": "toarray"
   },
   {
    "source": "emplid",
@@ -92,9 +112,9 @@
    "transform": "text"
   },
   {
-   "source": "opie:academicProgramCode",
-   "target": "academicProgram",
-   "transform": "toarray"
+   "source": "id",
+   "target": "userPrincipalName",
+   "transform": "appenddomain"
   },
   {
    "source": "birthdate",
@@ -177,14 +197,14 @@
    "transform": "text"
   },
   {
-   "source": "opie:academicProgramAndPlan",
-   "target": "academicProgramPlan",
+   "source": "opie:academicProgramCode",
+   "target": "academicProgram",
    "transform": "toarray"
   },
   {
-   "source": "id",
-   "target": "userPrincipalName",
-   "transform": "appenddomain"
+   "source": "opie:academicProgramLabel",
+   "target": "academicProgramDescription",
+   "transform": "toarray"
   }
  ],
  "static": [
