@@ -1,14 +1,14 @@
 {
- "update": "Fri Jun 24 2016 11:12:49 GMT-0700 (Pacific Daylight Time)",
+ "update": "Wed Jul 06 2016 13:13:11 GMT-0700 (Pacific Daylight Time)",
  "mappings": [
   {
-   "source": "opie:mydocsPath",
-   "target": "homeDirectory",
+   "source": "emplid",
+   "target": "calstateEduPersonEmplID",
    "transform": "text"
   },
   {
-   "source": "opie:facultyEnrollmentCode",
-   "target": "facultyEnrollmentCode",
+   "source": "opie:academicProgramCode",
+   "target": "academicProgram",
    "transform": "toarray"
   },
   {
@@ -107,8 +107,8 @@
    "transform": "toarray"
   },
   {
-   "source": "emplid",
-   "target": "calstateEduPersonEmplID",
+   "source": "opie:mydocsPath",
+   "target": "homeDirectory",
    "transform": "text"
   },
   {
@@ -197,13 +197,18 @@
    "transform": "text"
   },
   {
-   "source": "opie:academicProgramCode",
-   "target": "academicProgram",
+   "source": "opie:academicProgramLabel",
+   "target": "academicProgramDescription",
    "transform": "toarray"
   },
   {
-   "source": "opie:academicProgramLabel",
-   "target": "academicProgramDescription",
+   "source": "opie:description",
+   "target": "description",
+   "transform": "text"
+  },
+  {
+   "source": "opie:facultyEnrollmentCode",
+   "target": "facultyEnrollmentCode",
    "transform": "toarray"
   }
  ],
@@ -271,6 +276,60 @@
    "affiliation": "Staff"
   }
  ],
+ "description": [
+  {
+   "group": "employee_faculty",
+   "description": "Faculty"
+  },
+  {
+   "group": "employee_temp_lecturer",
+   "description": "Faculty"
+  },
+  {
+   "group": "employee_executive",
+   "description": "Staff"
+  },
+  {
+   "group": "employee_staff",
+   "description": "Staff"
+  },
+  {
+   "group": "corporation",
+   "description": "Staff"
+  },
+  {
+   "group": "student_continuing_education",
+   "description": "Student"
+  },
+  {
+   "group": "student_matriculated",
+   "description": "Student"
+  },
+  {
+   "group": "student_graduate",
+   "description": "Student"
+  },
+  {
+   "group": "student_applicant",
+   "description": "Applicant"
+  },
+  {
+   "group": "csumb_aa_life_member",
+   "description": "Alumni"
+  },
+  {
+   "group": ""
+  },
+  {
+   "group": ""
+  },
+  {
+   "group": ""
+  },
+  {
+   "group": ""
+  }
+ ],
  "general": {
   "mode": "production",
   "emailGroups": [
@@ -283,6 +342,12 @@
    "employee_staff",
    "employee_temp_lecturer",
    "employee_executive"
+  ],
+  "emailPoi": [
+   "00100",
+   "00101",
+   "00206",
+   "00207"
   ],
   "skipAttribute": "doNotTouch",
   "mydocsGroups": [
