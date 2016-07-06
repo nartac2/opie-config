@@ -316,7 +316,7 @@
   {
    "group": "csumb_aa_life_member",
    "description": "Alumni"
-  },
+  }
  ],
  "general": {
   "mode": "production",
