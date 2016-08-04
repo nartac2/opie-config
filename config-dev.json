@@ -1,15 +1,15 @@
 {
- "update": "Mon Jul 25 2016 14:55:10 GMT-0700 (Pacific Daylight Time)",
+ "update": "Thu Aug 04 2016 14:42:09 GMT-0700 (Pacific Daylight Time)",
  "mappings": [
+  {
+   "source": "id",
+   "target": "eduPersonPrincipalName",
+   "transform": "appenddomain"
+  },
   {
    "source": "opie:description",
    "target": "description",
    "transform": "text"
-  },
-  {
-   "source": "opie:studentEnrollmentCode",
-   "target": "studentEnrollmentCode",
-   "transform": "toarray"
   },
   {
    "source": "opie:academicProgramLabel",
@@ -107,14 +107,14 @@
    "transform": "toarray"
   },
   {
-   "source": "opie:facultyEnrollmentCode",
-   "target": "facultyEnrollmentCode",
-   "transform": "toarray"
+   "source": "housing:number",
+   "target": "housingStreetNumber",
+   "transform": "text"
   },
   {
-   "source": "id",
-   "target": "eduPersonPrincipalName",
-   "transform": "appenddomain"
+   "source": "opie:studentEnrollmentCode",
+   "target": "studentEnrollmentCode",
+   "transform": "toarray"
   },
   {
    "source": "last_name",
@@ -212,14 +212,14 @@
    "transform": "text"
   },
   {
-   "source": "housing:number",
-   "target": "housingStreetNumber",
-   "transform": "text"
-  },
-  {
    "source": "housing:address",
    "target": "housingStreetAddress",
    "transform": "text"
+  },
+  {
+   "source": "opie:facultyEnrollmentCode",
+   "target": "facultyEnrollmentCode",
+   "transform": "toarray"
   }
  ],
  "static": [
@@ -246,12 +246,12 @@
  ],
  "affiliation": [
   {
-   "group": "corporation",
-   "affiliation": "Staff"
-  },
-  {
    "group": "Emeritus_Faculty",
    "affiliation": "Faculty"
+  },
+  {
+   "group": "employee_staff",
+   "affiliation": "Staff"
   },
   {
    "group": "csumb_aa_life_member",
@@ -290,7 +290,7 @@
    "affiliation": "Faculty"
   },
   {
-   "group": "employee_staff",
+   "group": "corporation",
    "affiliation": "Staff"
   },
   {
@@ -340,7 +340,23 @@
    "description": "Faculty"
   },
   {
+   "group": "Future_Hire",
+   "description": "Faculty"
+  },
+  {
    "group": "employee_temp_lecturer",
+   "description": "Faculty"
+  },
+  {
+   "group": "Emeritus_Faculty",
+   "description": "Faculty"
+  },
+  {
+   "group": "Visiting_Scholar",
+   "description": "Faculty"
+  },
+  {
+   "group": "Adjunct_Faculty",
    "description": "Faculty"
   },
   {
@@ -353,6 +369,18 @@
   },
   {
    "group": "corporation",
+   "description": "Staff"
+  },
+  {
+   "group": "Temporary_Agency",
+   "description": "Staff"
+  },
+  {
+   "group": "Auxiliary_Foundation",
+   "description": "Staff"
+  },
+  {
+   "group": "Emeritus_Staff",
    "description": "Staff"
   },
   {
