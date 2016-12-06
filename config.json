@@ -227,6 +227,20 @@
    "transform": "toarray"
   }
  ],
+ "groups": [
+  {
+   "group": "student_applicant",
+   "status": "ACTIVE",
+   "email": false,
+   "account": true
+  },
+  {
+   "group": "employee_staff",
+   "status": "ACTIVE",
+   "email": true,
+   "account": true
+  }
+ ],
  "static": [
   {
    "value": "csumb-login.bat",
